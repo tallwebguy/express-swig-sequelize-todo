@@ -1,0 +1,3 @@
+configure = () =>
+
+exports.configure = configure

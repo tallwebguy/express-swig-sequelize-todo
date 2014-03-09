@@ -1,0 +1,26 @@
+{
+  "name": "todo-test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "swig" : "1.1.0",
+    "async" : "0.2.9",
+    "sha1" : "1.1.0",
+    "sequelize" : "2.0.0-beta.7",
+    "pg" : "2.8.2",
+    "passport" : "0.1.17",
+    "passport-local" : "0.1.6",
+    "moment" : "2.4.0",
+    "express-validator" : "1.0.0",
+    "request" : "2.27.0",
+    "marked" : "0.3.1",
+    "mkdirp" : "*"
+  },
+  "scripts" : {
+    "test" : "mocha --timeout 10000 --compilers coffee:coffee-script/register -R spec test/test.coffee"
+  }
+}
